@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.blinking-text {
+    font-size: 2em;
+    animation: blink-animation 3s steps(10, start) infinite;
+}
+
+@keyframes blink-animation {
+    from, to {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0;
+    }
+}

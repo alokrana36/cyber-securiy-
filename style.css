@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #ffffff; /* White background for boxes */
+    border: 1px solid #87cefa; /* Light blue border */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #007acc; /* Dark blue color for titles */
+}
+
+.checklist {
+    display: flex;
+    justify-content: flex-start; /* Align checklists horizontally */
+}
+
+.checklist label {
+    margin-right: 15px; /* Space between checkboxes */
+}
+
+@media (max-width: 768px) {
+    .box {
+        padding: 10px;
+    }
+}

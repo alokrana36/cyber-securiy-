@@ -1,0 +1,212 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("martix.gif");
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links li {
+        margin: 5px 0;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+}
+
+.feedback-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f8e0;
+    /* Light green background */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section {
+    width: 30%;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #a0d0a0;
+    /* Light green border */
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section-content {
+    padding: 15px;
+    text-align: center;
+    background-color: #f5fff5;
+    /* Very light green */
+}
+
+.section-content h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #004d00;
+    /* Dark green text */
+}
+
+.section-content p {
+    font-size: 14px;
+    color: #006600;
+    /* Medium green text */
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        width: 100%;
+    }
+}
+
+style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf6e4;
+    /* Light green background for the whole page */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #2e7d32;
+    /* Dark green color for headings */
+}
+
+h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid #c8e6c9;
+    /* Light green underline for subheadings */
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+body {
+   
+    
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.blinking-text {
+    font-size: 2em;
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    from, to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}

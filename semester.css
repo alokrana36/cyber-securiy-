@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("new.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; /* Responsive width */
+    max-width: 1200px; /* Max width for larger screens */
+}
+
+.box {
+    flex: 1; /* Equal size for each box */
+    margin: 10px;
+    padding: 95px;
+    background-color: #fff6f6;
+    text-align: center;
+    border: 3px solid #ccc;
+}
